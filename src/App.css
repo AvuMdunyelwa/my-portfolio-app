@@ -150,9 +150,30 @@ section {
 }
 
 @media screen and (max-width: 750px) {
+    .hero-section {
+        height: 55vh;
+    }
 
-    body {
-        background-color: rgb(161, 161, 9);
+    header {
+        nav {
+            width: 100%;
+        }
+    }
+
+    #intro {
+        h1 {
+            width: 100%;
+            font-size: 1.2rem;
+        }
+    }
+
+    .overview, .tech-stack {
+        width: 100%;
+    }
+
+    .overview button {
+        width: 20vw;
+        height: 4vh;
     }
 
 }
