@@ -18,7 +18,7 @@ function Projects() {
                             <h4 style={{fontWeight: '800', fontSize: '1rem', color: `${project['theme']}`}}>{project['projectName']}</h4>
                             <p style={{fontSize: '0.9rem'}}>{project['description']}</p>
                             <div className="links" style={{display: 'flex', gap: '0.5em'}}>
-                                <button style={{backgroundColor: 'black'}} ><a href={project['githubLink']} style={{ color: 'white'}}>GitHub</a></button>
+                                <button style={{backgroundColor: 'black'}} ><a href={project['githubLink']} target='_blank' style={{ color: 'white'}}>GitHub</a></button>
                                 <button><a href={project['liveDemo']}>Demo</a></button>
                             </div>
                         </aside>
