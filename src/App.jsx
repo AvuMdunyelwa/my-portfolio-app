@@ -44,8 +44,8 @@ const techTools = [
             </p>
             <div style={{display: 'flex', gap: '0.8em'}}>
               <button><a href={myCV} target='_blank'>my cv</a></button>
-              <button style={{backgroundColor: '#049bffc8', color: 'white'}}><a href='https://github.com/AvuMdunyelwa' style={{color: 'white'}}>GitHub</a></button>
-              <button style={{backgroundColor: '#9eed00c8'}}><a href='https://www.linkedin.com/in/avuzwa-mdunyelwa' style={{color: 'white'}}>LinkedIn</a></button>
+              <button style={{backgroundColor: '#049bffc8', color: 'white'}}><a href='https://github.com/AvuMdunyelwa' target='_blank' style={{color: 'white'}}>GitHub</a></button>
+              <button style={{backgroundColor: '#9eed00c8'}}><a href='www.linkedin.com/in/avuzwa-mdunyelwa-31879823a' target='_blank' style={{color: 'white'}}>LinkedIn</a></button>
             </div>
           </div>
           <div className='tech-stack' style={{width: '50%', paddingLeft: '0.1em'}}>
