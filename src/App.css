@@ -1,0 +1,158 @@
+:root {
+    -sec-bg: #e7e7e7;
+    -main-bg: white;
+}
+
+body {
+    font-family: 'poppins';
+    padding: 0.5em;
+    height: fit-content;
+}
+
+header {
+    margin-top: 0.2rem;
+    height: 5.5vh;
+    display: flex;
+    justify-content: center; 
+    position: relative;
+
+    nav {
+        width: 22%;
+        height: 100%;
+        background-color: white;
+        border-radius: 18px;
+        padding: 0.5em;
+        display: fixed;
+      
+    }
+
+    ul {
+        height: 100%;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        gap: 1.5em;
+        list-style: none;
+        padding: 0; 
+        margin: 0;
+        font-weight: 500;
+        font-size: 0.8rem; 
+        font-weight: 800;
+        
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(54, 54, 54);
+        padding: 0.2em 0.4em;
+        border-radius: 12px;
+        font-size: 0.9rem;
+        transition: 0.3s ease-in-out;
+    
+        &:hover {
+            background-color: rgb(49, 49, 49);
+            color: white;
+        }
+    }
+}
+
+#intro {
+    height: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+    gap: 1em;
+
+    h1 {
+        width: 50%;
+        height: fit-content; 
+        text-align: center; 
+        font-size: 1.5rem; 
+        font-weight: 800;
+    }
+}
+
+.intro-2 {
+    display: flex;
+    background-color: #e7e7e7; 
+    padding: 0.5em; 
+    border-radius: 10px;
+}
+
+.hero-section {
+    height: 73vh;
+    background-color: #e7e7e7;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.tech-stack ul {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1em; 
+    list-style: none; 
+    padding-left: 1em;
+}
+
+#contact {
+    height: 25vh; 
+    display: grid; 
+    align-items: center;
+    justify-content: center; 
+    background-color: #e7e7e7;
+    border-radius: 16px; 
+    padding: 0.5em; 
+    justify-items: center;
+}
+
+#experience {
+    background-color: #e7e7e7;
+    padding: 0.7em; 
+    border-radius: 10px; 
+    display: flex; 
+    gap: 0.7em;
+}
+
+button {
+    border-radius: 16px;
+    background-color: white;
+    border: 1px solid rgb(54, 54, 54);
+    box-shadow: 1px 1.3px 0.7px rgb(53, 53, 53);
+    transition: 0.3s ease-in-out;
+    padding: 0.1em;
+    width: 7vw;
+    height: 5.5vh;
+    
+    a {
+        text-decoration: none;
+        color: rgb(34, 34, 34);
+        font-weight: 600;
+    }
+    
+    &:hover {
+        border: 1px solid rgb(17, 17, 17);
+        transform: translateY(1px);
+        box-shadow: 0.5px 0.5px 0.7px gray;
+        background-color: rgb(235, 235, 235);
+    }
+    
+}
+
+h5 {
+    font-size: 1rem; 
+    margin: 1rem 0;
+    font-weight: 800;
+}
+
+section {
+    margin-top: 0.8rem;
+}
+
+@media screen and (max-width: 750px) {
+
+    body {
+        background-color: rgb(161, 161, 9);
+    }
+
+}
