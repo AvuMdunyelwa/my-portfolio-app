@@ -232,6 +232,12 @@ section {
         height: 3vh;
         font-size: 0.7rem;
     }
+    
+    #contact button {
+        width: 20vw;
+        height: 5vh;
+        font-size: 1rem;
+    }
 
     #works {
         .project {
