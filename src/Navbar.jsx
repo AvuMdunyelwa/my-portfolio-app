@@ -10,7 +10,7 @@ function Navbar() {
                 <nav>
                     <ul>
                         <li key={10}><a href='#about'>About</a></li>
-                        <li key={11}><a href='#projects'>Projects</a></li>
+                        <li key={11}><a href='#works'>Projects</a></li>
                         <li key={12}><a href='#contact'>Contact</a></li>
                     </ul>
                 </nav>
