@@ -34,7 +34,7 @@ const techTools = [
       </section>
       <section className='about-section'>
         <div className="intro-2">
-          <div className='overview' id='about' style={{width: '55%'}}>
+          <div className='overview' id='about'>
             <h5>Overview</h5>
             <p style={{fontSize: '0.9rem', borderRight: '1px solid #757575', paddingRight: '0.1em'}}>
               Self-taught full-stack developer with a CS50x foundation and hands-on experience shipping and deploying
@@ -48,7 +48,7 @@ const techTools = [
               <button style={{backgroundColor: '#9eed00c8'}}><a href='https://www.linkedin.com/in/avuzwa-mdunyelwa' target='_blank' style={{color: 'white'}}>LinkedIn</a></button>
             </div>
           </div>
-          <div className='tech-stack' style={{width: '50%', paddingLeft: '0.1em'}}>
+          <div className='tech-stack' style={{paddingLeft: '0.1em'}}>
             <h5>Tech-stack</h5>
             <ul>
               {techTools.map((tool) => 

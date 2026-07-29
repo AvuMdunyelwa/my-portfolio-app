@@ -78,6 +78,14 @@ header {
     background-color: #e7e7e7; 
     padding: 0.5em; 
     border-radius: 10px;
+
+    .overview {
+        width: 55%;
+    }
+
+    .tech-stack {
+        width: 50%;
+    }
 }
 
 .hero-section {
@@ -156,7 +164,7 @@ section {
 
     header {
         nav {
-            width: 100%;
+            width: 80%;
         }
     }
 
