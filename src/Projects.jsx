@@ -9,7 +9,7 @@ function Projects() {
 
     return (
         <>
-            <div className="projects" id='projects' style={{ backgroundColor: '#e7e7e7', padding: '0.7em', borderRadius: '10px', display: 'grid', gap: '0.7em'}}>
+            <div className="works" id='works' style={{ backgroundColor: '#e7e7e7', padding: '0.7em', borderRadius: '10px', display: 'grid', gap: '0.7em'}}>
                 <h5>Projects</h5>
                 {projectsInfo.map((project) => 
                     <div className="project" key={project['id']} style={{gap: '0.5em', backgroundColor: 'white', padding: '0.7em', borderRadius: '10px'}}>
