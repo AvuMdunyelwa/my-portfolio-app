@@ -5,8 +5,8 @@ function Experience() {
 
     return (
         <>
-         <div className="experience" id='experience'>
-            <div className="experience" style={{width: '50%'}}>
+         <div id='experiences'>
+            <div className="experience">
                 <h5>Experience</h5>
                 <h4 style={{fontSize: '1rem'}}>IT Support Intern — Internet Café</h4>
                 <h4 style={{fontSize: '0.8rem'}}>Jun 2025 - Dec 2025</h4>
@@ -20,7 +20,7 @@ function Experience() {
                     </li>
                 </ul>
             </div>
-            <div className="certification" style={{width: '50%'}}>
+            <div className="certification">
                 <h5>Certification</h5>
                 <ul style={{listStyle: 'none', padding: '0', display: 'grid', gap: '0.3em' }}>
                     {certifications.map((cert) => 

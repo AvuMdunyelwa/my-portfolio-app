@@ -118,12 +118,17 @@ header {
     justify-items: center;
 }
 
-#experience {
+#experiences {
     background-color: #e7e7e7;
     padding: 0.7em; 
     border-radius: 10px; 
     display: flex; 
     gap: 0.7em;
+
+    .experience,
+    .certification {
+        width: 50%;
+    }
 }
 
 button {
@@ -229,6 +234,15 @@ section {
             img {
                 width: 83vw;
             }
+        }
+    }
+
+    #experiences {
+        flex-direction: column;
+
+        .certification, .experience
+         {
+            width: 100%;
         }
     }
 
