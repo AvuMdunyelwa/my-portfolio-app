@@ -167,7 +167,6 @@ section {
 
         img {
             width: 50vw;
-            border: 1px solid red;
         }
     }
 }
@@ -216,7 +215,7 @@ section {
         width: 100%;
     }
 
-    .overview button {
+    button {
         width: 20vw;
         height: 4vh;
     }
