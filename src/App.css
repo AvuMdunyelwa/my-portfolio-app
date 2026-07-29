@@ -209,12 +209,13 @@ section {
     .tech-stack ul {
         padding-left: 0;
         gap: 0.5em;
-
     }
+
     .overview, .tech-stack {
         width: 100%;
     }
 
+    .links button,
     button {
         width: 20vw;
         height: 4vh;
