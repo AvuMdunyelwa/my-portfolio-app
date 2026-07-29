@@ -36,7 +36,7 @@ const techTools = [
         <div className="intro-2">
           <div className='overview' id='about'>
             <h5>Overview</h5>
-            <p style={{fontSize: '0.9rem', borderRight: '1px solid #757575', paddingRight: '0.1em'}}>
+            <p style={{fontSize: '0.9rem', paddingRight: '0.1em'}}>
               Self-taught full-stack developer with a CS50x foundation and hands-on experience shipping and deploying
               production web applications end-to-end. Comfortable across the stack: relational database design,
               backend logic in Python/Flask, and interactive frontends in JavaScript. Seeking a Software Developer Internship to apply and grow these skills in a

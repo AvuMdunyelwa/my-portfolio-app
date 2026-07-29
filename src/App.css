@@ -81,6 +81,10 @@ header {
 
     .overview {
         width: 55%;
+
+        p {
+            border-right: 1px solid #757575;
+        }
     }
 
     .tech-stack {
@@ -188,6 +192,11 @@ section {
 
         .tech-stack {
             width: 100%;
+
+            ul {
+                padding-left: 0;
+                gap: 0.5em;
+            }
         }
     }
 
