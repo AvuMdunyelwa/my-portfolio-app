@@ -167,6 +167,22 @@ section {
         }
     }
 
+    .intro-2 {
+        flex-direction: column-reverse;
+
+        .overview {
+            width: 100%;
+
+            p {
+                border: none;
+            }
+        }
+
+        .tech-stack {
+            width: 100%;
+        }
+    }
+
     .overview, .tech-stack {
         width: 100%;
     }
