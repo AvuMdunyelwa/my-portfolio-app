@@ -66,8 +66,8 @@ const techTools = [
       </section>
       <section>
         <div className='contact' id='contact'>
-            <h3 style={{marginBottom: '0', fontWeight: '800'}}>Tell me about your next project!</h3>
-            <button style={{width: '9vw', height: '7vh', backgroundColor: 'black', color: 'white'}}><a href='avuzwamdunyelwa@gmail.com' style={{color: 'white'}}>Email</a></button>
+            <h3 style={{marginBottom: '0', fontWeight: '800', textAlign: 'center'}}>Tell me about your next project!</h3>
+            <button style={{ backgroundColor: 'black', color: 'white'}}><a href='avuzwamdunyelwa@gmail.com' style={{color: 'white'}}>Email</a></button>
         </div>
       </section>
     </>

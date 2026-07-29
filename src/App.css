@@ -116,6 +116,11 @@ header {
     border-radius: 16px; 
     padding: 0.5em; 
     justify-items: center;
+
+    button {
+        width: 9vw;
+        height: 7vh;
+    }
 }
 
 #experiences {
@@ -221,6 +226,7 @@ section {
     }
 
     .links button,
+    #contact,
     button {
         width: 15vw;
         height: 3vh;
@@ -245,5 +251,7 @@ section {
             width: 100%;
         }
     }
+
+
 
 }
