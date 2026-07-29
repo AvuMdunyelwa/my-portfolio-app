@@ -186,20 +186,21 @@ section {
             width: 100%;
 
             p {
-                border: none;
+                border-right: none;
             }
         }
 
         .tech-stack {
             width: 100%;
 
-            ul {
-                padding-left: 0;
-                gap: 0.5em;
-            }
         }
     }
+    
+    .tech-stack ul {
+        padding-left: 0;
+        gap: 0.5em;
 
+    }
     .overview, .tech-stack {
         width: 100%;
     }
