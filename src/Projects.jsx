@@ -12,8 +12,8 @@ function Projects() {
             <div className="projects" id='projects' style={{ backgroundColor: '#e7e7e7', padding: '0.7em', borderRadius: '10px', display: 'grid', gap: '0.7em'}}>
                 <h5>Projects</h5>
                 {projectsInfo.map((project) => 
-                    <div key={project['id']} style={{display: 'flex', gap: '0.5em', backgroundColor: 'white', padding: '0.7em', borderRadius: '10px'}}>
-                        <img src={project['thumbNail']} alt="project-image" style={{width: '50vw', borderRadius: '10px'}} />
+                    <div className="project" key={project['id']} style={{gap: '0.5em', backgroundColor: 'white', padding: '0.7em', borderRadius: '10px'}}>
+                        <img src={project['thumbNail']} alt="project-image" style={{borderRadius: '10px'}} />
                         <aside style={{padding: '0.8em'}}>
                             <h4 style={{fontWeight: '800', fontSize: '1rem', color: `${project['theme']}`}}>{project['projectName']}</h4>
                             <p style={{fontSize: '0.9rem'}}>{project['description']}</p>
