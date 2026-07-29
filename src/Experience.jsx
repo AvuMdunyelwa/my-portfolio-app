@@ -10,7 +10,7 @@ function Experience() {
                 <h5>Experience</h5>
                 <h4 style={{fontSize: '1rem'}}>IT Support Intern — Internet Café</h4>
                 <h4 style={{fontSize: '0.8rem'}}>Jun 2025 - Dec 2025</h4>
-                <ul style={{borderRight: '1px solid black', paddingLeft: '0.9em', fontSize: '0.9rem'}}>
+                <ul style={{ paddingLeft: '0.9em', fontSize: '0.9rem'}}>
                     <li key={18}>Diagnosed and resolved 100% of hardware, software, and connectivity issues within shift hours, with
                         zero unresolved escalations
                     </li>

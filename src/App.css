@@ -134,6 +134,10 @@ header {
     .certification {
         width: 50%;
     }
+
+    .experience ul {
+        border-right: 1px solid black;
+    }
 }
 
 button {
@@ -255,6 +259,10 @@ section {
         .certification, .experience
          {
             width: 100%;
+        }
+
+        .experience ul {
+            border: none;
         }
     }
 
