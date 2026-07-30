@@ -17,7 +17,7 @@ body {
 
 header {
     margin-top: 0.2rem;
-    height: 5.5vh;
+    height: 6vh;
     display: flex;
     justify-content: center; 
     position: relative;
@@ -214,6 +214,8 @@ section {
     }
 
     header {
+        height: 5.5vh;
+        
         nav {
             width: 80%;
         }
