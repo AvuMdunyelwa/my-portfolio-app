@@ -11,8 +11,8 @@ body {
 
 .container-fluid {
     position: relative;
-    top: 5px;
-    animation: slideIn 100ms ease-in;
+    top: 1px;
+    animation: slideIn 300ms ease-in;
 }
 
 header {
@@ -198,12 +198,17 @@ section {
     top: 12px;
    }
    100% {
-        top: 5px;
+        top: 1px;
     }
 }
 
 
 @media screen and (max-width: 750px) {
+
+    .container-fluid {
+        padding: 0
+    }
+    
     .hero-section {
         height: 55vh;
     }
