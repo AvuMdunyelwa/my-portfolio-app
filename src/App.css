@@ -7,6 +7,8 @@ body {
     font-family: 'poppins';
     padding: 0.5em;
     height: fit-content;
+    top: 10%;
+    animation: slideIn 100ms ease-in;
 }
 
 header {
@@ -184,6 +186,19 @@ section {
         }
     }
 }
+
+/* animation keyframes*/
+
+@keyframes slideIn {
+   0% {
+    top: 12%;
+   }
+   100% {
+        top: 10%;
+    }
+    
+}
+
 
 @media screen and (max-width: 750px) {
     .hero-section {
