@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import HeroSection from './App.jsx'
+import Page from './App.jsx'
+import Container from './Container.jsx'
 
 
 createRoot(document.getElementById('root')).render(
