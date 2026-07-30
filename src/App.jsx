@@ -37,10 +37,8 @@ const techTools = [
           <div className='overview' id='about'>
             <h5>Overview</h5>
             <p style={{fontSize: '0.9rem', paddingRight: '0.1em'}}>
-              Self-taught full-stack developer with a CS50x foundation and hands-on experience shipping and deploying
-              production web applications end-to-end. Comfortable across the stack: relational database design,
-              backend logic in Python/Flask, and interactive frontends in JavaScript. Seeking a Software Developer Internship to apply and grow these skills in a
-              team environment.
+              Self-taught full-stack developer with a CS50x foundation and experience designing, building, and deploying full-stack web applications. 
+              Proven ability to take projects from idea to production and eager to contribute, learn, and grow as a Software Developer Intern
             </p>
             <div style={{display: 'flex', gap: '0.8em'}}>
               <button><a href={myCV} target='_blank'>my cv</a></button>
