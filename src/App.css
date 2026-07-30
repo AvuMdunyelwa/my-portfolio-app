@@ -10,7 +10,6 @@ body {
 }
 
 #root {
-    background-color: black;
     top: 10%;
     animation: slideIn 100ms ease-in;
 }
