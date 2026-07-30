@@ -1,7 +1,7 @@
 function Container({children}){
   return (
     <>
-      <div className="container" style={{width: '100%', height: '100%'}}>
+      <div className="container" style={{width: '100%', height: '100%', margin: '0'}}>
         {children}
       </div>
     </>
