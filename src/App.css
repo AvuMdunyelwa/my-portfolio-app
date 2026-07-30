@@ -9,7 +9,7 @@ body {
     height: fit-content;
 }
 
-#root {
+.container-fluid {
     position: relative;
     top: 10%;
     animation: slideIn 100ms ease-in;
