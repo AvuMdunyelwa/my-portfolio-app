@@ -72,10 +72,10 @@ const techTools = [
   )
 }
 
-function Container() {
+function Container({children}) {
   return (
     <>
-      <div className="container"></div>
+      <div className="container">{children}</div>
     </>
   )
 }
