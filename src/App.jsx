@@ -67,7 +67,7 @@ const techTools = [
       <section>
         <div className='contact' id='contact'>
             <h3 style={{marginBottom: '0', fontWeight: '800', textAlign: 'center'}}>Tell me about your next project!</h3>
-            <button style={{ backgroundColor: 'black', color: 'white'}}><a href='avuzwamdunyelwa@gmail.com' style={{color: 'white'}}>Email</a></button>
+            <button style={{ backgroundColor: 'black', color: 'white'}}><a href="mailto:avuzwamdunyelwa@gmail.com?subject=Portfolio%20Inquiry&body=Hi,%20I%20found%20your%20portfolio..." style={{color: 'white'}}>Email</a></button>
         </div>
       </section>
     </>
