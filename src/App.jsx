@@ -6,7 +6,7 @@ import Projects from './Projects.jsx'
 import Experience from './Experience.jsx'
 
 
-function HeroSection() {
+function Page() {
 const techTools = [
   ['0','HTML & CSS', '#ffd2a9'],     
   ['1','Bootstrap', '#c7a4ff'],       
@@ -72,4 +72,4 @@ const techTools = [
   )
 }
 
-export default HeroSection
+export default Page
