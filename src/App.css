@@ -7,6 +7,9 @@ body {
     font-family: 'poppins';
     padding: 0.5em;
     height: fit-content;
+}
+
+#root {
     top: 10%;
     animation: slideIn 100ms ease-in;
 }
@@ -196,7 +199,6 @@ section {
    100% {
         top: 10%;
     }
-    
 }
 
 
