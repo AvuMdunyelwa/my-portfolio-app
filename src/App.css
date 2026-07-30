@@ -11,7 +11,7 @@ body {
 
 .container-fluid {
     position: relative;
-    top: 10%;
+    top: 5px;
     animation: slideIn 100ms ease-in;
 }
 
@@ -195,10 +195,10 @@ section {
 
 @keyframes slideIn {
    0% {
-    top: 12%;
+    top: 12px;
    }
    100% {
-        top: 10%;
+        top: 5px;
     }
 }
 
